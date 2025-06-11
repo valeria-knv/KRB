@@ -1,0 +1,42 @@
+# Основні залежності Flask
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+Flask-Cors==4.0.0
+Werkzeug==2.3.7
+
+# База даних
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Аутентифікація та безпека
+PyJWT==2.8.0
+pycryptodome==3.19.0
+cryptography==41.0.5
+secrets==1.0.2
+
+# Обробка аудіо
+pydub==0.25.1
+whisper==1.1.10
+openai-whisper==20231117
+numpy==1.26.2
+scipy==1.11.4
+ffmpeg-python==0.2.0
+
+# AWS інтеграція
+boto3==1.29.3
+botocore==1.32.3
+
+# Діаризація спікерів
+pyannote.audio==3.1.1
+torch==2.1.1
+torchaudio==2.1.1
+
+# Утиліти
+python-dotenv==1.0.0
+requests==2.31.0
+gunicorn==21.2.0
+email-validator==2.1.0.post1
+python-dateutil==2.8.2
+tqdm==4.66.1
